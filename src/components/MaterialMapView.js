@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { StyleSheet, View } from "react-native";
+import React, {Component} from 'react';
+import {StyleSheet, View} from 'react-native';
 import MapView from 'react-native-maps';
 
 export default class MaterialMapView extends Component {
@@ -14,11 +14,11 @@ export default class MaterialMapView extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "white",
+    backgroundColor: 'white',
   },
   mapView1: {
-    backgroundColor: "rgb(230,230,230)",
-    height:'100%',
-    width:'100%',
-  }
+    backgroundColor: 'rgb(230,230,230)',
+    height: '100%',
+    width: '100%',
+  },
 });

@@ -1,10 +1,12 @@
-import React, { Component } from "react";
-import { StyleSheet, TouchableOpacity, Text } from "react-native";
+import React, {Component} from 'react';
+import {StyleSheet, TouchableOpacity, Text} from 'react-native';
 
 export default class SignInButton extends Component {
   render() {
     return (
-      <TouchableOpacity style={[styles.container, this.props.style]} onPress={this.props.onPress}>
+      <TouchableOpacity
+        style={[styles.container, this.props.style]}
+        onPress={this.props.onPress}>
         <Text style={styles.caption}>SIGN IN</Text>
       </TouchableOpacity>
     );
@@ -13,11 +15,11 @@ export default class SignInButton extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    left:-40,
-    backgroundColor: "#3F51B5",
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
+    left: -40,
+    backgroundColor: '#3F51B5',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
     paddingRight: 16,
     paddingLeft: 16,
     elevation: 2,
@@ -25,15 +27,15 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     shadowOffset: {
       height: 1,
-      width: 0
+      width: 0,
     },
-    shadowColor: "#000",
+    shadowColor: '#000',
     shadowOpacity: 0.35,
-    shadowRadius: 5
+    shadowRadius: 5,
   },
   caption: {
-    color: "#fff",
+    color: '#fff',
     fontSize: 14,
-    fontFamily: "Roboto-Regular"
-  }
+    fontFamily: 'Roboto-Regular',
+  },
 });

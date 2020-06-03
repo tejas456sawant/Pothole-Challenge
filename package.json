@@ -1,5 +1,5 @@
 {
-  "name": "POTHOLEMAIN",
+  "name": "pothole-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -28,13 +28,12 @@
     "react-native-modal": "^11.5.3",
     "react-native-reanimated": "^1.4.0",
     "react-native-safe-area-context": "^0.6.2",
+    "react-native-screens": "^2.8.0",
     "react-native-svg": "^10.0.0",
     "react-native-vector-icons": "^6.6.0",
     "react-navigation": "^4.0.10",
-    "react-navigation-selective-tab-bar": "^1.0.3",
     "react-navigation-stack": "^2.0.8",
-    "react-navigation-tabs": "^2.7.0",
-    "uuid": "^3.3.3"
+    "react-navigation-tabs": "^2.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -48,10 +47,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "rnpm": {
-    "assets": [
-      "./src/assets/fonts/"
-    ]
   }
 }

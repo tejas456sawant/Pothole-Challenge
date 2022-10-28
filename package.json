@@ -15,7 +15,7 @@
     "@react-native-community/masked-view": "^0.1.5",
     "axios": "^0.21.2",
     "expo": "^46.0.16",
-    "firebase": "^7.24.0",
+    "firebase": "^9.13.0",
     "lodash": "^4.17.21",
     "react": "16.9.0",
     "react-native": "0.70.3",
